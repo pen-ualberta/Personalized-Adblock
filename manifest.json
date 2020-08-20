@@ -1,0 +1,10 @@
+{
+	"name": "pen's adblocker",
+	"version": "1.0",
+	"description": "personal adblocker",
+	"permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+	"background": {
+		"scripts": ["blockedDomains.js", "background.js"]
+	},
+	"manifest_version": 2
+}
